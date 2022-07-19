@@ -1,3 +1,105 @@
+/* All Necessary Items */
 body {
-    background-color: red;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(234, 234, 234);
+}
+
+
+
+/* Header Style Start  */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-section {
+    margin-top: 40px;
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1150px;
+    height: 646px;
+}
+
+.top-details {
+    width: 50%;
+}
+
+.top-title {
+    font-weight: 700;
+    font-size: 38px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-left: 106px;
+}
+
+.top-paragragh {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 106px;
+}
+
+.top-image {
+    width: 50%;
+    margin: 30px 79px 0px 24px;
+}
+
+.top-image img {
+    width: 581px;
+    height: 613px;
+}
+
+.button {
+    margin-left: 106px;
+    background-color: #DD0000;
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+/* aside  */
+
+
+.second-section {
+    margin-top: 130px;
+
+}
+
+aside {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aside-button {
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    width: 252px;
+    height: 64px;
+    margin-top: 5px;
+
+}
+
+#mark-aside-button{
+    color: #FFFFFF;
+    background-color: #DD0000;
 }

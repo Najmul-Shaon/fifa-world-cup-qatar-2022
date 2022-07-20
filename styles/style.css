@@ -103,3 +103,36 @@ aside {
     color: #FFFFFF;
     background-color: #DD0000;
 }
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.blog-info {
+    margin-left: 20px;
+
+
+}
+
+.transfer-button {
+    border: 2px solid;
+    border-radius: 5px;
+    height: 32px;
+    width: 100px;
+    text-align: center;
+}
+
+.blog-icon {
+    display: flex;
+    align-items: center;
+}
+
+.blog-icon p {
+    margin-left: 10px;
+}
+
+.fa-comment-dots {
+    margin-left: 30px;
+}

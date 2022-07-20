@@ -7,9 +7,10 @@ body {
 /* Header Style Start  */
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    justify-content: center;
+    /* flex-direction: column;
+    align-items: center; */
 }
 
 .top-section {
@@ -42,7 +43,7 @@ main {
 
 .top-image {
     width: 50%;
-    margin: 30px 79px 0px 24px;
+    margin: 33px 79px 0px 24px;
 }
 
 .top-image img {
@@ -110,7 +111,7 @@ aside {
 
 .blogs {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
     flex-grow: 1;
 
 }
@@ -140,4 +141,31 @@ aside {
 
 .fa-comment-dots {
     margin-left: 30px;
+}
+
+/* footer  */
+footer {
+    background-color: #161616;
+    width: 100%;
+    height: 333px;
+}
+
+.goal {
+    margin-top: 130px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.footer-nav {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: #FFFFFF;
 }

@@ -1,13 +1,11 @@
 /* All Necessary Items */
 body {
-    font-family: 'Dancing Script', cursive;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(234, 234, 234);
 }
 
-
-
 /* Header Style Start  */
+
 main {
     display: flex;
     flex-direction: column;
@@ -68,12 +66,16 @@ main {
 
 }
 
-/* aside  */
-
+/* second-section */
 
 .second-section {
+    display: flex;
     margin-top: 130px;
+}
 
+/* aside start  */
+.aside-nav {
+    margin-right: 24px;
 }
 
 aside {
@@ -104,9 +106,12 @@ aside {
     background-color: #DD0000;
 }
 
+/* aside end */
+
 .blogs {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    flex-grow: 1;
 
 }
 

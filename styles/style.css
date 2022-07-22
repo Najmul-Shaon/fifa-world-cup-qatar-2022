@@ -254,7 +254,7 @@ hr {
 
 
 /* Media Query for mobile  */
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:576px) {
 
 
 
@@ -334,9 +334,8 @@ hr {
     }
 
 }
+
 /* Mobile view end  */
 
 /* table view start  */
-@media screen and  {
-    
-}
+/* @media screen and (min-width:) {} */

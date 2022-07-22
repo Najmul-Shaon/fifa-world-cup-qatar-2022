@@ -74,6 +74,7 @@ main {
     height: 7%;
     border-radius: 0.5em;
     font-size: 1.3rem;
+    font-weight: 700;
     padding: 1em;
 }
 
@@ -82,6 +83,7 @@ main {
     color: #FFFFFF;
     /* margin-left: 30px; */
     margin-left: 10%;
+
 }
 
 
@@ -99,21 +101,55 @@ main {
 
 .second-section {
     display: flex;
-    margin-top: 130px;
+    /* margin-top: 130px; */
+    margin-top: 7em;
+    width: 90vw;
 }
 
 /* aside start  */
-.aside-nav {
+
+/* .aside-nav {
     margin-right: 24px;
     margin-left: 50px;
+} */
+
+.nav {
+    width: 20%;
+    height: 150px;
+    background-color: #ff8c8c;
+    border-radius: 1em;
+    margin-right: 2%;
 }
 
-.aside-nav a {
+.nav ul {
+    display: grid;
+    justify-content: center;
+    margin-right: 25%;
+}
+
+
+.nav-button {
+    list-style: none;
+    width: 120%;
+    background-color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-top: 0.7em;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.nav-button a {
     text-decoration: none;
     color: black;
 }
 
-aside {
+/* .aside-nav a {
+    text-decoration: none;
+    color: black;
+} */
+
+/* aside {
     background-color: #161616;
     width: 250px;
     height: 280px;
@@ -123,10 +159,10 @@ aside {
     align-items: center;
     justify-content: center;
 
-}
+} */
 
 
-.aside-button {
+/* .aside-button {
     font-size: 20px;
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -135,9 +171,10 @@ aside {
     height: 40px;
     margin-top: 5px;
 
-}
+} */
 
-#mark-aside-button {
+
+#mark-nav-button {
     color: #FFFFFF;
     background-color: #DD0000;
 }
@@ -149,30 +186,33 @@ aside {
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
+    /* grid-row-gap: 20px;
+    grid-column-gap: 50px; */
+    grid-row-gap: 4%;
+    grid-column-gap: 6%;
     flex-grow: 1;
 }
 
 .blog {
-    background-color: #c7c7c7;
+    background-color: #f9e7e7;
     /* width: 270px; */
-    width: 90%;
-    border-radius: 10px;
+    width: 20vw;
+    border-radius: 2%;
 }
 
 .blog-title {
-    margin-right: 5px;
+    /* margin-right: 5px; */
+    margin-right: 1em;
 }
 
 .blogs .blog img {
     /* width: 270px;
     height: 160px */
-    width: 90%;
+    width: 100%;
 }
 
 .blog-info {
-    margin-left: 20px;
+    margin-left: 7%;
 
 
 }
@@ -247,13 +287,4 @@ hr {
 
 
 
-@media screen and (max-width:688px) {
-
-
-    .aside-nav {
-
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-
-}
+@media screen and (max-width:688px) {}

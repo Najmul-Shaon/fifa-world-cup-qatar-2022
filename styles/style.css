@@ -108,7 +108,7 @@ main {
 .second-section {
     display: flex;
     /* margin-top: 130px; */
-    margin-top: 7em;
+    /* margin-top: 7em; */
     width: 90vw;
 }
 
@@ -125,6 +125,7 @@ main {
     background-color: #ff8c8c;
     border-radius: 1em;
     margin-right: 2%;
+    margin-top: 7em;
 }
 
 .nav ul {
@@ -168,6 +169,7 @@ main {
     grid-row-gap: 4%;
     grid-column-gap: 6%;
     flex-grow: 1;
+    margin-top: 7em;
 }
 
 .blog {
@@ -237,7 +239,6 @@ hr {
     margin: 2% 20% 0 20%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     color: #FFFFFF;
 }
 
@@ -310,9 +311,26 @@ hr {
         width: 100%;
     }
 
-/* second section end  */
+    .blogs {
+        grid-row-gap: 1%
+    }
 
-/* footer start  */
+    /* second section end  */
 
+    /* footer start  */
+    .goal {
+        margin-top: 100%;
+        width: 100%;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
 }

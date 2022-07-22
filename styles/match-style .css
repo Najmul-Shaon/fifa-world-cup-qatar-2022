@@ -61,14 +61,13 @@ main {
     padding: 12px 20px;
 }
 
-
-/* transition start  */
+/* transition start */
 .button:hover {
     background-color: goldenrod;
-    transition: background-color 3s;
+    transition: background-color 3s ease-in-out;
 }
 
-/* transition end  */
+/* transition end */
 
 .button a {
     text-decoration: none;
@@ -106,7 +105,6 @@ aside {
 
 }
 
-
 .aside-button {
     font-size: 20px;
     background-color: #FFFFFF;
@@ -124,60 +122,49 @@ aside {
 }
 
 /* aside end */
-
-/* blog start  */
-
-.blogs {
+.live-match {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 20px;
-    grid-column-gap: 20px;
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
     flex-grow: 1;
 }
 
-.blog {
+.match {
+    width: 280px;
+    height: 250px;
     background-color: #c7c7c7;
-    width: 270px;
+    display: grid;
+    justify-content: center;
     border-radius: 10px;
-}
-
-.blog-title {
-    margin-right: 5px;
-}
-
-.blogs .blog img {
-    width: 270px;
-    height: 160px
-}
-
-.blog-info {
-    margin-left: 20px;
-
 
 }
 
-.transfer-button {
-    border: 2px solid;
-    border-radius: 5px;
-    height: 32px;
-    width: 100px;
+.country h2 {
     text-align: center;
 }
 
-.blog-icon {
+.match p {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.match-flag {
     display: flex;
     align-items: center;
+    margin-top: 20px;
+
 }
 
-.blog-icon p {
-    margin-left: 10px;
+.match-flag h2 {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.fa-comment-dots {
-    margin-left: 30px;
+.match-flag img {
+    width: 90px;
+    height: 55px;
 }
-
-/* blog end  */
 
 
 /* footer  */
@@ -222,20 +209,4 @@ hr {
 .fa-brands {
     margin: 5px;
     color: #FFFFFF;
-}
-
-
-
-@media screen and (max-width:688px) {
-
-    .top-section, footer {
-        display: none;
-    }
-
-    .aside-nav{
-        
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-
 }

@@ -253,7 +253,7 @@ hr {
 }
 
 
-/* Media Query  */
+/* Media Query for mobile  */
 @media only screen and (max-width:688px) {
 
 
@@ -330,7 +330,13 @@ hr {
     .footer-nav {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
 
+}
+/* Mobile view end  */
+
+/* table view start  */
+@media screen and  {
+    
 }

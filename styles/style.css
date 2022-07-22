@@ -2,6 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(234, 234, 234);
+    margin: 0px;
 
 }
 
@@ -71,7 +72,6 @@ main {
     background-color: #DD0000;
     margin-left: 5em;
     width: 25%;
-    height: 7%;
     border-radius: 0.5em;
     font-size: 1.3rem;
     font-weight: 700;
@@ -137,6 +137,7 @@ main {
     margin-top: 0.7em;
     text-align: center;
     border-radius: 1em;
+    padding: 1%;
 }
 
 .nav-button a {
@@ -213,16 +214,15 @@ main {
 
 .blog-info {
     margin-left: 7%;
-
-
 }
 
+
 .transfer-button {
+    text-decoration: none;
+    color: black;
     border: 2px solid;
-    border-radius: 5px;
-    height: 32px;
-    width: 100px;
-    text-align: center;
+    border-radius: 0.5em;
+    padding: 1%;
 }
 
 .blog-icon {
@@ -231,11 +231,11 @@ main {
 }
 
 .blog-icon p {
-    margin-left: 10px;
+    margin-left: 4%;
 }
 
 .fa-comment-dots {
-    margin-left: 30px;
+    margin-left: 30%;
 }
 
 /* blog end  */
@@ -243,12 +243,12 @@ main {
 
 /* footer  */
 footer {
-    margin-top: 130px;
+    margin-top: 15%;
     background-color: #161616;
-    width: 100%;
-    height: 333px;
+    /* width: 100%;
+    height: 333px; */
+    height: 60vh;
     justify-content: center;
-
 }
 
 .goal {

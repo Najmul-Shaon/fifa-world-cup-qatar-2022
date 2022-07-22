@@ -106,13 +106,6 @@ main {
     width: 90vw;
 }
 
-/* aside start  */
-
-/* .aside-nav {
-    margin-right: 24px;
-    margin-left: 50px;
-} */
-
 .nav {
     width: 20%;
     height: 150px;
@@ -150,101 +143,56 @@ main {
     color: black;
 }
 
-/* .aside-nav a {
-    text-decoration: none;
-    color: black;
-} */
-
-/* aside {
-    background-color: #161616;
-    width: 250px;
-    height: 280px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-} */
-
-
-/* .aside-button {
-    font-size: 20px;
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    text-align: center;
-    width: 180px;
-    height: 40px;
-    margin-top: 5px;
-
-} */
-
-
 #mark-nav-button {
     color: #FFFFFF;
     background-color: #DD0000;
 }
 
-/* aside end */
-
 /* blog start  */
 
-.blogs {
+
+/* blog end  */
+
+.live-match {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-row-gap: 20px;
-    grid-column-gap: 50px; */
     grid-row-gap: 4%;
     grid-column-gap: 6%;
     flex-grow: 1;
 }
 
-.blog {
-    background-color: #f9e7e7;
-    /* width: 270px; */
-    width: 20vw;
-    border-radius: 2%;
+.match {
+    /* width: 280px;
+    height: 250px; */
+    background-color: #c7c7c7;
+    display: grid;
+    justify-content: center;
+    border-radius: 4%;
+
 }
 
-.blog-title {
-    /* margin-right: 5px; */
-    margin-right: 1em;
+.country h2 {
+    text-align: center;
 }
 
-.blogs .blog img {
-    /* width: 270px;
-    height: 160px */
-    width: 100%;
+.match p {
+    text-align: center;
 }
 
-.blog-info {
-    margin-left: 7%;
-}
-
-
-.transfer-button {
-    text-decoration: none;
-    color: black;
-    border: 2px solid;
-    border-radius: 0.5em;
-    padding: 1%;
-}
-
-.blog-icon {
+.match-flag {
     display: flex;
     align-items: center;
+    margin-top: 10%;
 }
 
-.blog-icon p {
-    margin-left: 4%;
+.match-flag h2 {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.fa-comment-dots {
-    margin-left: 30%;
+.match-flag img {
+    width: 8vw;
 }
-
-/* blog end  */
-
 
 /* footer  */
 footer {
